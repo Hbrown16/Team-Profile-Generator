@@ -5,6 +5,14 @@ const Coder = require("");
 const Intern = require("");
 const Manager = require("");
 
+// Array of questions for input
+const managerInput = [
+  {
+    type: 'input',
+    message: 'Enter managers name here:',
+    name: 'name',
+  },
+]
 
 // const Manager = require("./lib/Manager");
 // const Engineer = require("./lib/Engineer");
