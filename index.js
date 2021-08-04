@@ -55,8 +55,13 @@ const interInput = [
 const engineerInput = [
   {
     type: 'input',
-    message: "Enter the enginer's name here:",
+    message: "Enter the engineer's name here:",
     name: 'name',
+  },
+  {
+    type: 'input',
+    message: "What's their ID number?",
+    name: 'ID',
   },
   {}
 ]
