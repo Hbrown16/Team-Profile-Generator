@@ -80,6 +80,9 @@ const team = [];
 function addEngineer() {
   inquirer.prompt(engineerInput).then(answers => {
     console.log(answers);
+    const engineer = new Engineer(answers.name, answers.ID, answers.email, answers.github);
+    team.push(engineer);
+    addEmployee();
   })
 }
 
