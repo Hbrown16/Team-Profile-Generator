@@ -85,7 +85,7 @@ function addEngineer() {
     addEmployee();
   })
 }
-
+// function to add employee
 function addIntern() {
   inquirer.prompt(interInput).then(answers => {
     const intern = new Intern(answers.name, answers.ID, answers.email, answers.school);
@@ -101,7 +101,22 @@ function addEmployee() {
     name: 'memberChoice',
     choices: ["Intern", "Engineer", "Done Adding Employees"]
   }];
+
+  inquirer.prompt(employeePrompt)
+    .then(answer => {
+      switch (answer.memberChoice) {
+        case "Intern":
+          addIntern()
+          break;
+        
+        default:
+          writeToFile("");  
+      }
+    })
 }
+
+// Function to Write File
+
 // const Manager = require("./lib/Manager");
 // const Engineer = require("./lib/Engineer");
 // const Intern = require("./lib/Intern");
