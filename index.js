@@ -125,7 +125,20 @@ function writeToFile(fileName, data) {
   );
 }
 
+// Intialize App
+function generateTeam() {
+  inquirer
+    .prompt(managerInput)
+    .then((answers) => {
+      console.log(answers);
+      const Manager = new Manager(answers.name, answers.ID, answers.email, answers.officeNumber)
+      team.push(manager);
+      addEmployee();
+    })
+}
 
+// Call to intialize App
+generateTeam();
 // const Manager = require("./lib/Manager");
 // const Engineer = require("./lib/Engineer");
 // const Intern = require("./lib/Intern");
