@@ -86,6 +86,14 @@ function addEngineer() {
   })
 }
 
+function addIntern() {
+  inquirer.prompt(interInput).then(answers => {
+    const intern = new Intern(answers.name, answers.ID, answers.email, answers.school);
+    team.push(Intern);
+    addEmployee();
+  })
+}
+
 // const Manager = require("./lib/Manager");
 // const Engineer = require("./lib/Engineer");
 // const Intern = require("./lib/Intern");
