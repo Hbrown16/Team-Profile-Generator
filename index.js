@@ -1,7 +1,7 @@
 const fs = require('fs');
 const inquirer = require("inquirer");
 const createTeam = require("");
-const Coder = require("");
+const Engineer = require("");
 const Intern = require("");
 const Manager = require("");
 
@@ -50,6 +50,15 @@ const interInput = [
     message: 'What school did they attend?',
     name: 'schoolName',
   },
+]
+
+const engineerInput = [
+  {
+    type: 'input',
+    message: "Enter the enginer's name here:",
+    name: 'name',
+  },
+  {}
 ]
 
 // const Manager = require("./lib/Manager");
