@@ -35,6 +35,11 @@ const interInput = [
     message: "What is the intern's name?",
     name: 'name',
   },
+  {
+    type: 'input',
+    message: 'What is the ID number?',
+    name: 'ID',
+  },
 ]
 
 // const Manager = require("./lib/Manager");
