@@ -116,6 +116,15 @@ function addEmployee() {
 }
 
 // Function to Write File
+function writeToFile(fileName, data) {
+  console.log(createTeam(data));
+
+  fs.writeFile(fileName, createTeam(data), (err) =>
+    err ? console.error(err) : console.log('Complete')
+  
+  );
+}
+
 
 // const Manager = require("./lib/Manager");
 // const Engineer = require("./lib/Engineer");
