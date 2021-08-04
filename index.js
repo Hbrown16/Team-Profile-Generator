@@ -29,6 +29,14 @@ const managerInput = [
   }
 ];
 
+const interInput = [
+  {
+    tyoe: 'input',
+    message: "What is the intern's name?",
+    name: 'name',
+  },
+]
+
 // const Manager = require("./lib/Manager");
 // const Engineer = require("./lib/Engineer");
 // const Intern = require("./lib/Intern");
