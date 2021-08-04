@@ -23,6 +23,8 @@ const generateTeam = team => {
     // Html for Engineers
     const generateEngineer = Engineer => {
         return`
-        <div class
+        <div class = "card employee-card">
+    <div class = "Card-Header">
+        <h2 class=
     }
 }
