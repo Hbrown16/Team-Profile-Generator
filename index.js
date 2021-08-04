@@ -94,6 +94,14 @@ function addIntern() {
   })
 }
 
+function addEmployee() {
+  const employeePrompt = [{
+    type: 'list',
+    message: ' What type of employee are you wanting to add?',
+    name: 'memberChoice',
+    choices: ["Intern", "Engineer", "Done Adding Employees"]
+  }];
+}
 // const Manager = require("./lib/Manager");
 // const Engineer = require("./lib/Engineer");
 // const Intern = require("./lib/Intern");
