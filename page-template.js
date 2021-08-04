@@ -8,6 +8,12 @@ const generateTeam = team => {
            <h2 class = "Card-Title">${Manager.getName()}</h2>
            <h3 class = "Card-Title"><i class = class = "fas fa-mug-hot mr-2"></i>${Manager.getRole()}</h3> 
         </div>    
-        <div class
+        <div class = "Card-Body">
+            <ul class = "List-Group">
+                <li class = "List-Groupe-Item">ID: ${Manager.getId()}</li>
+                <li class = "List-Group_Item">Email: <a href="mailto:${getEmail()}">${Manager.getEmail()}</a></li>
+                <li class
+            </ul>
+        </div>
     }
 }
