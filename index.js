@@ -49,7 +49,7 @@ const interInput = [
     type: 'input',
     message: 'What school did they attend?',
     name: 'schoolName',
-  },
+  }
 ]
 
 const engineerInput = [
@@ -69,7 +69,9 @@ const engineerInput = [
     name: 'email',
   },
   {
-    
+    type: 'input',
+    message: "What is your GitHub account name?",
+    name: "github",
   }
 ]
 
