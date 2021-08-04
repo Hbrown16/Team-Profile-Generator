@@ -22,7 +22,12 @@ const managerInput = [
     message: 'What is the managers email?',
     name: 'email',
   },
-]
+  {
+    tyoe: 'input',
+    message: 'What is the managers office number?',
+    name: 'officeNumber',
+  }
+];
 
 // const Manager = require("./lib/Manager");
 // const Engineer = require("./lib/Engineer");
