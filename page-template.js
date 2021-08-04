@@ -25,7 +25,7 @@ const generateTeam = team => {
         return`
         <div class = "card employee-card">
     <div class = "Card-Header">
-        <h2 class= "Card-Title">${engineer.getName()}</h2>
-        
+        <h2 class = "Card-Title">${engineer.getName()}</h2>
+        <h3 class = "Card-Title"><i class = "fas fa-glasses mr-2"></i>${engineer.getRole()}</h3>
     }
 }
