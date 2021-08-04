@@ -15,7 +15,7 @@ const generateTeam = team => {
                 <li class = "List-Group_Item">Office Number: ${Manager.getOfficeNumber()}</li>
             </ul>
         </div>
-    </div>
+</div>
         `;
 
     };
@@ -30,8 +30,12 @@ const generateTeam = team => {
     </div>
     <div class = "Card-Body">
         <ul class = "List-Group">
-        <li class = "List-Group-Item">ID: ${Engineer.getId()}</li>
-        <li class = "List-Group-Item">Email: <a href="mailto:${Engineer.getEmail()}">${Engineer.getEmail()}</a></li>
+            <li class = "List-Group-Item">ID: ${Engineer.getId()}</li>
+            <li class = "List-Group-Item">Email: <a href="mailto:${Engineer.getEmail()}">${Engineer.getEmail()}</a></li>
+            <li class "List-Group-Item">GitHub: <a href="https://github.com/${Engineer.getGithub()}" target = "_blank" rel="Noopener Noreferrer">${Engineer.getGithub()}</a></li>
+        </ul>
+    </div>
+</div>    
 
     `;    
     }
