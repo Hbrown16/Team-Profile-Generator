@@ -17,6 +17,11 @@ const managerInput = [
     message: 'What is the ID number?',
     name: 'ID',
   },
+  {
+    type: 'input',
+    message: 'What is the managers email?',
+    name: 'email',
+  },
 ]
 
 // const Manager = require("./lib/Manager");
