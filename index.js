@@ -75,6 +75,14 @@ const engineerInput = [
   }
 ]
 
+const team = [];
+
+function addEngineer() {
+  inquirer.prompt(engineerInput).then(answers => {
+    console.log(answers);
+  })
+}
+
 // const Manager = require("./lib/Manager");
 // const Engineer = require("./lib/Engineer");
 // const Intern = require("./lib/Intern");
