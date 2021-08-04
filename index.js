@@ -23,7 +23,7 @@ const managerInput = [
     name: 'email',
   },
   {
-    tyoe: 'input',
+    type: 'input',
     message: 'What is the managers office number?',
     name: 'officeNumber',
   }
@@ -31,7 +31,7 @@ const managerInput = [
 
 const interInput = [
   {
-    tyoe: 'input',
+    type: 'input',
     message: "What is the intern's name?",
     name: 'name',
   },
@@ -40,6 +40,12 @@ const interInput = [
     message: 'What is the ID number?',
     name: 'ID',
   },
+  {
+    type: 'input',
+    message: "What is the interns email?",
+    name: 'email',
+  },
+  {}
 ]
 
 // const Manager = require("./lib/Manager");
