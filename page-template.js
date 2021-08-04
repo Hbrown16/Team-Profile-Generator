@@ -2,7 +2,7 @@ const generateTeam = team => {
 
     // manager html
     const generateManger = Manager => {
-        return
+        return`
         <div class = "card employee-card">
         <div class = "Card-Header">
            <h2 class = "Card-Title">${Manager.getName()}</h2>
@@ -16,6 +16,13 @@ const generateTeam = team => {
             </ul>
         </div>
     </div>
+        `;
 
     };
+
+    // Html for Engineers
+    const generateEngineer = Engineer => {
+        return`
+        <div class
+    }
 }
