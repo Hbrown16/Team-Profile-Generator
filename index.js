@@ -45,7 +45,11 @@ const interInput = [
     message: "What is the interns email?",
     name: 'email',
   },
-  {}
+  {
+    type: 'input',
+    message: 'What school did they attend?',
+    name: 'schoolName',
+  },
 ]
 
 // const Manager = require("./lib/Manager");
