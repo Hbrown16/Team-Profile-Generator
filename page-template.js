@@ -83,3 +83,9 @@ const generateTeam = team => {
         return html.join("");
 
 }
+
+// Generate the whole page
+
+module.exports = team => {
+    
+}
