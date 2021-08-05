@@ -66,5 +66,9 @@ const generateTeam = team => {
         .map(Manager => generateManager(Manager))
     );
 
-    
+    // HTML console.log
+
+    html.push(team
+        .filter(employee =))
+
 }
