@@ -51,8 +51,11 @@ const generateTeam = team => {
         <ul class = ""List-Group">
             <li class = "List-Group-Item">ID: ${intern.getId()}</li>
             <li class = "List-Group-Item">Email: <a href = "mailto:${intern.getEmail()}">${intern.getEmail()}</a></li>
-            
-    `
+            <li class = "List-Group-Item">School: ${intern.getSchool()}</li>
+        </ul>
+    </div>
+</div>
+        `;
 
-    }
+    };
 }
