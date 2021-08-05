@@ -36,7 +36,15 @@ const generateTeam = team => {
         </ul>
     </div>
 </div>    
+        `;    
+    };
 
-    `;    
+    // HTML for interns
+    const generateIntern = Intern => {
+        return `
+        <div class = "card employee-card">
+    <div class = "Card-Header">
+    `
+
     }
 }
