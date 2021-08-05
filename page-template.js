@@ -44,6 +44,8 @@ const generateTeam = team => {
         return `
         <div class = "card employee-card">
     <div class = "Card-Header">
+        <h2 class = "Card-Title">${intern.getName()}</h2>
+        
     `
 
     }
