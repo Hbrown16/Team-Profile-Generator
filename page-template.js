@@ -49,7 +49,9 @@ const generateTeam = team => {
     </div>
     <div class = "Card-Body">
         <ul class = ""List-Group">
-            <li class = "List-Group-Item">ID: ${}
+            <li class = "List-Group-Item">ID: ${intern.getId()}</li>
+            <li class = "List-Group-Item">Email: <a href = "mailto:${intern.getEmail()}">${intern.getEmail()}</a></li>
+            
     `
 
     }
