@@ -47,6 +47,9 @@ const generateTeam = team => {
         <h2 class = "Card-Title">${intern.getName()}</h2>
         <h3 class = "Card-Title"><i class = "fas fa-user-graduate mr-2"></i>${intern.getRole()}</h3>
     </div>
+    <div class = "Card-Body">
+        <ul class = ""List-Group">
+            <li class = "List-Group-Item">ID: ${}
     `
 
     }
