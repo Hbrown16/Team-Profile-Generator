@@ -74,4 +74,6 @@ const generateTeam = team => {
         .join("")
         );
 
+    html.push(team)
+
 }
