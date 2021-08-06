@@ -8,3 +8,17 @@ max-width: 1000px;
 margin: 3em auto;
 flex-wrap: wrap;
 }
+
+.Employee-Card {
+    margin: 1em;
+    max-width: 280px;
+    width: 90%;
+    min-height: 22rem;
+    background-color:lightblue;
+    color:darkorange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 4px 4px 8px rgba(red, green, blue, alpha);
+    border: none;
+}
