@@ -105,7 +105,9 @@ module.exports = team => {
         <div class = "row">
             <div class="col-12 jumbotron mb-3 team-heading">
                 <h1 class = "text-center">Project Team</h1>
-            <
+            </div>
+        </div>
+    </div> 
 </html>
     `;
-}
+};
