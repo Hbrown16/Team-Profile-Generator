@@ -103,6 +103,9 @@ module.exports = team => {
 <body>
     <div class = "container-fluid">
         <div class = "row">
+            <div class="col-12 jumbotron mb-3 team-heading">
+                <h1 class = "text-center">Project Team</h1>
+            <
 </html>
     `;
 }
