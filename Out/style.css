@@ -22,3 +22,15 @@ flex-wrap: wrap;
     box-shadow: 4px 4px 8px rgba(red, green, blue, alpha);
     border: none;
 }
+
+.Card-Body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: slateblue;
+}
+
+.list-group-item {
+    color:thistle;
+    text-decoration: none;
+}
