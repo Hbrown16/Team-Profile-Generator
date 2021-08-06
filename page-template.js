@@ -15,7 +15,7 @@ const generateTeam = team => {
                 <li class = "List-Group_Item">Office Number: ${Manager.getOfficeNumber()}</li>
             </ul>
         </div>
-</div>
+    </div>
         `;
 
     };
