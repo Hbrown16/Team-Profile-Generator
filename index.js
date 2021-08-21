@@ -2,7 +2,7 @@ const fs = require('fs');
 const inquirer = require("inquirer");
 const createTeam = require("./page-template");
 const Engineer = require("./team/Engineer");
-const Intern = require("");
+const Intern = require("./team/Intern");
 const Manager = require("");
 
 // Array of questions for input
