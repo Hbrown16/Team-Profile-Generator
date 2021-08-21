@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const createTeam = require("./page-template");
 const Engineer = require("./team/Engineer");
 const Intern = require("./team/Intern");
-const Manager = require("");
+const Manager = require("./team/Manager");
 
 // Array of questions for input
 const managerInput = [
