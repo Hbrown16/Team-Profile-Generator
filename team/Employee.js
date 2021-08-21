@@ -1,5 +1,8 @@
 class Employee {
     constructor (name, id, email){
-        this
+        this.name = name;
+        this.id = id;
+        this.email = email;
     }
+    
 }
