@@ -1,7 +1,7 @@
 const fs = require('fs');
 const inquirer = require("inquirer");
-const createTeam = require("");
-const Engineer = require("");
+const createTeam = require("./page-template");
+const Engineer = require("./team/Engineer");
 const Intern = require("");
 const Manager = require("");
 
