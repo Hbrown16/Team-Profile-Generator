@@ -1,18 +1,18 @@
 const generateTeam = team => {
 
     // manager html
-    const generateManger = Manager => {
+    const generateManger = manager => {
         return`
         <div class = "card employee-card">
         <div class = "Card-Header">
-           <h2 class = "Card-Title">${Manager.getName()}</h2>
-           <h3 class = "Card-Title"><i class = class = "fas fa-mug-hot mr-2"></i>${Manager.getRole()}</h3> 
+           <h2 class = "Card-Title">${manager.getName()}</h2>
+           <h3 class = "Card-Title"><i class = class = "fas fa-mug-hot mr-2"></i>${manager.getRole()}</h3> 
         </div>    
         <div class = "Card-Body">
             <ul class = "List-Group">
-                <li class = "List-Group-Item">ID: ${Manager.getId()}</li>
-                <li class = "List-Group_Item">Email: <a href="mailto:${getEmail()}">${Manager.getEmail()}</a></li>
-                <li class = "List-Group_Item">Office Number: ${Manager.getOfficeNumber()}</li>
+                <li class = "List-Group-Item">ID: ${manager.getId()}</li>
+                <li class = "List-Group_Item">Email: <a href="mailto:${getEmail()}">${manager.getEmail()}</a></li>
+                <li class = "List-Group_Item">Office Number: ${manager.getOfficeNumber()}</li>
             </ul>
         </div>
     </div>
@@ -63,7 +63,7 @@ const generateTeam = team => {
 
     html.push(team
         .filter(employee => employee.getRole() === "Manager")
-        .map(Manager => generateManager(Manager))
+        .map(manager => generateManager(manager))
     );
 
     // HTML console.log

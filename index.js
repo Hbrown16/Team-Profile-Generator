@@ -131,7 +131,7 @@ function generateTeam() {
     .prompt(managerInput)
     .then((answers) => {
       console.log(answers);
-      const Manager = new Manager(answers.name, answers.ID, answers.email, answers.officeNumber)
+      const manager = new manager(answers.name, answers.Id, answers.email, answers.officeNumber);
       team.push(manager);
       addEmployee();
     })
