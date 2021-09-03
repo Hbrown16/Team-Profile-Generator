@@ -88,8 +88,8 @@ function addEngineer() {
 // function to add employee
 function addIntern() {
   inquirer.prompt(interInput).then(answers => {
-    const intern = new Intern(answers.name, answers.ID, answers.email, answers.school);
-    team.push(Intern);
+    const intern = new Intern(answers.name, answers.ID, answers.email, answers.schoolName);
+    team.push(intern);
     addEmployee();
   })
 }
@@ -105,12 +105,16 @@ function addEmployee() {
   inquirer.prompt(employeePrompt)
     .then(answer => {
       switch (answer.memberChoice) {
+        case "Engineer":
+         addEngineer()
+        break;
         case "Intern":
           addIntern()
           break;
         
         default:
-          writeToFile("");  
+          console.log(team)
+          writeToFile("employee.html", team);  
       }
     })
 }
@@ -131,10 +135,10 @@ function generateTeam() {
     .prompt(managerInput)
     .then((answers) => {
       console.log(answers);
-      const manager = new manager(answers.name, answers.Id, answers.email, answers.officeNumber);
+      const manager = new Manager(answers.name, answers.ID, answers.email, answers.officeNumber);
       team.push(manager);
       addEmployee();
-    })
+    });
 }
 
 // Call to intialize App
