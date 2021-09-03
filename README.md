@@ -7,9 +7,8 @@
 4. [Acceptance Criteria](##Acceptance-Criteria)
 
 ## Team Generator Links
-+ [Deployed Link]()
-
-+ [Github Repo Link]()
++ [Github-Profile](https://github.com/Hbrown16)
++ [Github Repo Link](https://github.com/Hbrown16/Team-Profile-Generator)
 
 ## Webpage Details
 This application allows you to create and modify your team. It utilizes Express.js backend that saves files from a JSON file
@@ -38,3 +37,7 @@ THEN I am prompted to enter the intern’s name, ID, email, and school, and I am
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
+
+## Helpful Links
+* https://getbootstrap.com/docs/4.0/components/card/
+* https://www.codegrepper.com/code-examples/html/bootstrap+align+cards+in+row
