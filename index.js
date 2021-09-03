@@ -114,7 +114,7 @@ function addEmployee() {
         
         default:
           console.log(team)
-          writeToFile("employee.html", team);  
+          writeToFile("Out/output.html", team);  
       }
     })
 }

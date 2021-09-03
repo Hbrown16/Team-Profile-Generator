@@ -9,7 +9,7 @@ margin: 3em auto;
 flex-wrap: wrap;
 }
 
-.Employee-Card {
+.card {
     margin: 1em;
     max-width: 280px;
     width: 90%;
@@ -17,16 +17,17 @@ flex-wrap: wrap;
     background-color:lightblue;
     color:darkorange;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
     box-shadow: 4px 4px 8px rgba(red, green, blue, alpha);
     border: none;
 }
 
-.Card-Body {
+.card-Body {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: column; 
     background-color: slateblue;
 }
 
