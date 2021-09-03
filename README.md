@@ -15,7 +15,8 @@
 This application allows you to create and modify your team. It utilizes Express.js backend that saves files from a JSON file
 
 ## Demo Video
-![Team-Gen]()
+![Team-Gen](./Assets/video1.gif)
+![code](./Assets/video2.gif)
 
 ## Acceptance Criteria
 ```md

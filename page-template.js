@@ -28,7 +28,7 @@ const generateTeam = team => {
     const generateEngineer = Engineer => {
         return`
         <div class ="container display= "flex">
-        <div class= "row flex-wrap" style="flex-direction: row">
+        <div class= "row" style="flex-direction: row">
         <div class = "card card col-sm-4 d-flex" flex-direction="row" style="width: 18rem;">
     <div class = "card-header">
         <h2 class = "card-title">${Engineer.getName()}</h2>
@@ -51,7 +51,7 @@ const generateTeam = team => {
     const generateIntern = intern => {
         return `
         <div class ="container display= "flex">
-        <div class= "row flex-wrap" style="flex-direction: row">
+        <div class= "row" style="flex-direction: row">
         <div class = "card card col-sm-4 d-flex" flex-direction="row" style="width: 18rem;">
     <div class = "card-header">
         <h2 class = "card-title">${intern.getName()}</h2>
@@ -79,7 +79,6 @@ const generateTeam = team => {
     <title>Project Team</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="Out/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/7e69a492c8.js" crossorigin="anonymous"></script>
 </head>
