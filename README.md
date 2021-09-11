@@ -9,6 +9,7 @@
 ## Team Generator Links
 + [Github-Profile](https://github.com/Hbrown16)
 + [Github Repo Link](https://github.com/Hbrown16/Team-Profile-Generator)
++ [Video Links](https://drive.google.com/file/d/1GJIj1bnX-Xw3PgP0MnEZdIb7YF7ZInU1/view)
 
 ## Webpage Details
 This application allows you to create and modify your team. It utilizes Express.js backend that saves files from a JSON file
